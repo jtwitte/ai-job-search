@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, ROS, autonomous vehicle (AUV/ASV) integration and field testing, sensor integration (sonar, LiDAR, camera, navigation), marine/maritime robotics, hydrographic/bathymetric surveying
+**Moderate match areas:** C++, Matlab, CFD/LES simulation, Gazebo simulation, GIS (in progress), git
+**Weak match areas:** Large-scale/production software engineering, independent full-stack software development, offshore-industry-specific certifications (e.g. survey/diving certifications) unless already acquired
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +74,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Applied research and field testing of autonomous maritime systems (AUV/ASV), hydrographic/bathymetric surveying, sensor integration and data acquisition in field/marine environments, cross-institutional project coordination
+**Moderate:** Physical oceanography research and instrumentation (ocean turbulence measurement), embedded systems (brief internship), underwater acoustics/noise regulation
+**Entry-level:** Pure software engineering roles, GIS-specialist roles (coursework in progress, no professional GIS experience yet), offshore drilling/production-specific roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,19 +107,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Stay within the marine technology sector, across research, government, or industry
+- Continue hands-on work: acquiring sensor/vehicle data in the field, solving the mechanical, programming, and organisational problems that come with it, then analysing and presenting the data to stakeholders
+- Build GIS skills (current University of Gothenburg coursework) to open up hydrographic/survey company roles
+- Open to defence industry or offshore roles if that's what it takes to stay in the maritime sector
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: End-to-end data pipeline work (deploying sensors/vehicles, solving problems as they arise, analysing the results, presenting to stakeholders/customers); interdisciplinary collaboration; travel to different sites/projects; being the technical point of contact for external stakeholders
+- Tasks that drain: Isolated, purely independent software-development work with little team exchange
+- Non-task factors: collaborative team structure, access to peers for technical problem-solving, some autonomy/leadership scope (as in his interim SOT lead role)
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Previous role (Fraunhofer IOSB) paid approx. EUR 5,000 gross/month - a useful baseline reference point, not a hard floor
+- **Flexibility**: Based in Jönköping/Huskvarna with a young family (two children); soft preference to avoid long offshore stints away from home, though not a hard deal-breaker if it's the only way to stay in the maritime sector. Open to relocation for the right opportunity - see job-scraper/search-queries.md for the location list.
+- **Professional development**: Actively upskilling (GIS coursework at University of Gothenburg; considering a C course; continuing Python CS50) to broaden into survey/geospatial roles
 
 ### 6. Salary Benchmark (Optional)
 

@@ -115,12 +115,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Marine Robotics / Autonomous Systems Engineer roles:**
+> Applied scientist with five years of hands-on experience developing, integrating, and field-testing autonomous maritime robotic systems (AUV/ASV) at Fraunhofer IOSB. Combines ROS-based software development and Python tooling with practical sensor integration (sonar, LiDAR, camera, navigation) and simulation (Gazebo, CFD/LES) across real-world deployments - from harbour surveys to a 6 km autonomous bathymetric survey of the Ruhr River for the Düsseldorf Regional Government. A background in physical oceanography (MPhil, University of Southampton) grounds the engineering work in a strong understanding of the marine environment. Thrives on the full pipeline: acquiring data in the field, solving problems as they arise, and communicating results to stakeholders.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Hydrographic Survey / Geospatial Data roles:**
+> Applied scientist moving into hydrographic survey and geospatial data work, building on five years of field experience acquiring and processing sonar, LiDAR, and camera-based bathymetric data with autonomous surface vehicles at Fraunhofer IOSB, and an MPhil in Physical Oceanography (University of Southampton) focused on ocean turbulence measurement. Currently expanding into GIS (University of Gothenburg coursework) to complement hands-on survey experience with structured geospatial analysis. Co-author of a peer-reviewed paper on transferring autonomous mapping concepts to small uncrewed surface vehicles (Journal of Applied Hydrography, 2024).
+
+**For Research / Applied Science roles (academia, Fraunhofer, government agencies):**
+> Applied scientist with a research background spanning physical oceanography (MPhil, University of Southampton; MSc Physics, University of Rostock) and five years of applied R&D on autonomous maritime systems at Fraunhofer IOSB, including interim leadership of the cross-institutional Smart Ocean Technologies working group. Experienced in translating research methods into field-deployable tools, with a publication record (Journal of Applied Hydrography, 2024) and direct industry engagement - including collaborator interest from Rockland Scientific and discussions with Alseamar - in the glider-based turbulence measurement method developed during the MPhil.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
