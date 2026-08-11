@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Jan-Torben Witte
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Jan-Torben Witte, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,94 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Jan-Torben Witte
+- **Location:** Jönköping, Sweden (currently Jönköping/Huskvarna; open to relocation - see Target Sectors below and job-scraper/search-queries.md for the full location list)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | German | Native |
+  | English | Fluent |
+  | Swedish | Intermediate (SFI D examination scheduled June 2026) |
+  | Russian | Intermediate |
+  | French | Intermediate |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English (default; switch to German for German-market applications)
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** In professional reorientation since 09/2025, targeting robotics and marine technology roles. Most recently Research Associate at Fraunhofer IOSB (07/2020-06/2025).
+- **LinkedIn headline:** "Applied Scientist | Autonomous Maritime Systems & Marine Robotics | Physical Oceanography" (suggested - edit freely to match your actual LinkedIn headline)
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MPhil in Physical Oceanography** (2017-2020, awarded 07/2022) - University of Southampton
+  - Thesis: "A coupled CFD and observational approach to improve measurements of ocean turbulence from gliders"
+  - Topics: Ocean turbulence measurement, CFD modelling, ocean gliders. Method drew interest from project collaborator Rockland Scientific, and was discussed with Alseamar (personal contact, including at Oceanology 2024).
+- **MSc in Physics** (2013-2016) - University of Rostock
+  - Thesis: "Analysis of slope-induced tidal straining and transport of suspended material near a uniform rotating slope"
+- **BSc in Physics** (2010-2013) - University of Rostock
+- **In progress:** GIS coursework, University of Gothenburg (application outcome pending) - broadening into hydrographic survey / geospatial roles
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Research Associate** (07/2020 - 06/2025) - **Fraunhofer IOSB** (Rostock / Karlsruhe, Germany)
+  - Developed, integrated, and validated autonomous maritime robotic systems: ROS-based software, Python tools, sensor integration, simulation, and field testing of AUV/ASV platforms with sonar, LiDAR, camera, and navigation systems
+  - Led an on-site bathymetric survey of a 6 km stretch of the Ruhr River using an autonomous surface vehicle ("Otter") for the Düsseldorf Regional Government; featured explaining the measurements in a Fraunhofer IOSB LinkedIn video (2025)
+  - Interim lead of the cross-institutional working group Smart Ocean Technologies (01/2021-06/2021): coordinated interdisciplinary collaboration and restructured team workflows
+  - Co-authored a peer-reviewed publication on transferring autonomous mapping concepts to a small uncrewed surface vehicle
+- **Research Associate** (07/2017 - 09/2017) - **Federal Maritime and Hydrographic Agency of Germany (BSH)** (Hamburg, Germany)
+  - Management and development of guidelines for underwater noise
+- **Embedded Software Engineer (Internship)** (12/2016 - 03/2017) - **develogic GmbH** (Hamburg, Germany)
+  - Set up and design of microcontroller units / product tests
+
+<!-- Full history including earlier student/research-assistant roles: see 01-candidate-profile.md -->
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, ROS, autonomous vehicle (AUV/ASV) integration and field testing, sensor integration (sonar, LiDAR, camera, navigation)
+- **Secondary:** C++, Matlab, CFD/LES simulation, Gazebo simulation, git, GIS (in progress)
+- **Domain:** Marine robotics, physical oceanography, hydrography/bathymetric surveying, underwater noise regulation
+- **Software:** MB Systems, Nortek, Maritime Robotics, Gazebo
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- GIS course - University of Gothenburg - in progress, outcome pending
+- Also considering: a C programming course, and continuing the Python CS50 course
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Schmidt, T., Witte, J., Lichtenstein, U., Zube, A., & Woock, P. (2024). Transfer of autonomous mapping concepts to a small uncrewed surface vehicle. Journal of Applied Hydrography / Hydrographische Nachrichten, HN129, p. 20. https://doi.org/10.23784/HN129-03
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None currently.
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Reliable and thorough** - Detail-oriented, dependable, willing to put in extra hours when a project requires it
+- **Collaborative communicator** - Adapts to different people, enjoys bringing people together in a team, comfortable explaining technical work to non-specialist audiences
+- **Strengths:** Field-based data acquisition and problem-solving (mechanical, programming, and organisational), cross-disciplinary team coordination, stakeholder communication
+- **Growth areas:** Not the strongest independent/solo coder - prefers exchange with colleagues over working entirely in isolation; actively addressing this via the Python CS50 course and a planned C course
+- **Thrives in:** Collaborative, field-based environments spanning multiple disciplines, with the opportunity to travel between sites/projects
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Getting data with a sensor or vehicle in the real world, and solving the problems that come up along the way (mechanical, programming, or organisational)
+- Analysing that data and presenting it to give information to customers/stakeholders
+- Working with and connecting different experts across disciplines
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Research: Fraunhofer (maritime area), universities in maritime robotics/turbulence research (Gothenburg, Rostock, Hamburg, Lübeck, Kiel)
+- Government agencies: SMHI (Sweden), BSH (Germany)
+- Industry (maritime data/robotics): TKMS, Kongsberg, Nortek, Frost Unmanned, Voice of the Ocean, Reach Subsea, Njord Survey
+- Also open to: offshore survey companies, defence industry (e.g. Rheinmetall), if that's what it takes to stay in the maritime sector; robotics industry outside maritime (e.g. Husqvarna Group - autonomous robotic lawn mowers, R&D based in Huskvarna) where the domain overlaps strongly with his embedded/autonomous-systems background
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None hard-stated. Soft preference: avoid long offshore stints away from family, but not a hard no if it's the only way to continue in the maritime sector.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

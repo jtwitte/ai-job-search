@@ -1,0 +1,20 @@
+{
+  "name": "workday-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching job listings on any Workday-powered career site (multi-tenant, any --site) — no authentication, zero runtime dependencies. Checks each site's robots.txt Content-Signal (ai-input) live before every request.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "workday-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "1.3.14"
+  }
+}
