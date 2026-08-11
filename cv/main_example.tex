@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Jan-Torben Witte
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Jan-Torben Witte - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Jan-Torben}{Witte}
+\address{Norra Bogesundsgatan 5A, 554 73 Jönköping, Sweden}{}{}
+\phone[mobile]{+46 72 277 3303}
+\email{jan-torben.witte@outlook.com}
+\extrainfo{\href{https://www.linkedin.com/in/jan-torben-witte-9a7625ba/}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Applied scientist with five years of experience developing, integrating, and field-testing autonomous maritime robotic systems (AUV/ASV) in applied R\&D at Fraunhofer IOSB. Combines a research background in physical oceanography (MPhil, University of Southampton; MSc Physics, University of Rostock) with hands-on engineering: ROS-based software, Python tooling, sensor integration (sonar, LiDAR, camera, navigation), and field testing across harbours, lakes, and rivers. Thrives on the full data pipeline -- acquiring data in the field, solving problems as they arise, and communicating results to stakeholders -- and is now broadening into GIS to expand into hydrographic survey work.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,19 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Autonomous Maritime Systems}: ROS-based software development, AUV/ASV integration, field testing and validation
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Sensor Integration \& Data Acquisition}: Sonar, LiDAR, camera, and navigation sensor fusion for bathymetric and environmental surveying
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Programming \& Simulation}: Python, C++, Matlab, Gazebo, CFD/LES simulation, git
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Physical Oceanography \& Ocean Turbulence}: CFD and observational methods for glider-based turbulence measurement
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Cross-Disciplinary Project Coordination}: Interim leadership of a cross-institutional research group, stakeholder communication
+
+\item \textbf{Maritime Survey Software}: MB Systems, Nortek, Maritime Robotics
+
+\item \textbf{GIS} (in progress): University of Gothenburg coursework, expanding into geospatial data analysis
 
 \end{itemize}
 
@@ -76,32 +79,52 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Professional Reorientation ---
+\item{\cventry{2025-Present}{Professional Reorientation}{}{}{}{\vspace{1pt}
+Applying for roles in robotics and marine technology, while continuing professional development in Python, GIS, and Swedish.
+}}
+
+\vspace{3pt}
+
+% --- Fraunhofer IOSB ---
+\item{\cventry{2020-2025}{Research Associate}{Fraunhofer IOSB}{Rostock / Karlsruhe, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Developed, integrated, and validated autonomous maritime robotic systems: ROS-based software, Python tools, sensor integration, simulation, and field testing of AUV/ASV platforms with sonar, LiDAR, camera, and navigation systems
+    \item Led an on-site bathymetric survey of a 6 km stretch of the Ruhr River using an autonomous surface vehicle ("Otter") for the Düsseldorf Regional Government, generating point-cloud data for river maintenance and flood-event modelling; featured explaining the on-site measurements in a Fraunhofer IOSB video (LinkedIn, 2025)
+    \item Co-authored a peer-reviewed publication on transferring autonomous mapping concepts to a small uncrewed surface vehicle (see Publications)
+    \item Interim lead of the cross-institutional working group Smart Ocean Technologies (Jan 2021 - Jun 2021): coordinated interdisciplinary collaboration, restructured team workflows, and supported strategic project development
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- BSH ---
+\item{\cventry{Jul 2017 - Sep 2017}{Research Associate}{Federal Maritime and Hydrographic Agency of Germany (BSH)}{Hamburg, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Management and development of guidelines for underwater noise
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- develogic ---
+\item{\cventry{Dec 2016 - Mar 2017}{Embedded Software Engineer (Internship)}{develogic GmbH}{Hamburg, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Set up and design of microcontroller units / product tests
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Student Assistant ---
+\item{\cventry{2013-2016}{Student Assistant}{Institute of Physics, University of Rostock}{Rostock, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Laboratory tutor
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Institute for Baltic Research ---
+\item{\cventry{2012-2014}{Research Assistant}{Institute for Baltic Research}{Warnemünde, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Data evaluation with Matlab and data acquisition on research cruises (RV Alkor, RV Elisabeth Mann Borgese)
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +137,24 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2017-2020}{MPhil, Physical Oceanography}{University of Southampton}{Southampton, UK}{}{\vspace{1pt}
+Thesis: ``A coupled CFD and observational approach to improve measurements of ocean turbulence from gliders.'' Method drew interest from project collaborator Rockland Scientific, and was discussed with Alseamar (Oceanology 2024).
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2013-2016}{MSc, Physics}{University of Rostock}{Rostock, Germany}{}{\vspace{1pt}
+Thesis: ``Analysis of slope-induced tidal straining and transport of suspended material near a uniform rotating slope.''
+}}
+
+\vspace{3pt}
+
+\item{\cventry{2010-2013}{BSc, Physics}{University of Rostock}{Rostock, Germany}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2025-Present}{GIS Coursework}{University of Gothenburg}{Gothenburg, Sweden}{}{\vspace{1pt}
+In progress, application outcome pending.
 }}
 
 \end{itemize}
@@ -133,27 +166,27 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item German (native), English (fluent), Swedish (intermediate, SFI D exam scheduled June 2026), Russian (intermediate), French (intermediate).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     PUBLICATIONS
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Schmidt, T., Witte, J., Lichtenstein, U., Zube, A., \& Woock, P. (2024). Transfer of autonomous mapping concepts to a small uncrewed surface vehicle. \textit{Journal of Applied Hydrography / Hydrographische Nachrichten}, HN129, p. 20. \href{https://doi.org/10.23784/HN129-03}{DOI link}
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{None currently.}
 \end{itemize}
 
 % ============================================================
