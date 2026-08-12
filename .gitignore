@@ -20,6 +20,9 @@ venv/
 
 # Personal data (never commit these)
 salary_data.json
+# Archive of real past applications and their outcomes: contains real
+# recruiters' names/email addresses and personal reflections - never public.
+past_applications/
 # Match at any depth: the job-scraper skill resolves `job_scraper/` relative to
 # its own directory, so these land at .claude/skills/job-scraper/job_scraper/*.
 # A rooted `job_scraper/...` pattern silently fails to match them.
