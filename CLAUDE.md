@@ -17,7 +17,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Jan-Torben Witte
-- **Location:** Jönköping, Sweden (currently Jönköping/Huskvarna; open to relocation - see Target Sectors below and job-scraper/search-queries.md for the full location list)
+- **Location:** Jönköping, Sweden (currently Jönköping/Huskvarna; open to relocation - see Target Sectors below and job-scraper/search-queries.md for the full location list). Family is planning to relocate around **April 2027** to wherever job prospects look best by then, in this priority order: Gothenburg → Rostock → Malmö/Helsingborg/Copenhagen greater area → Karlshamn/Karlskrona (Blekinge/Skåne region) → Lübeck → Hamburg → Kiel → other northern German coastal cities (e.g. Bremen, Oldenburg, Wismar). Destination isn't finalized - re-check with Jan-Torben if this becomes decision-relevant.
 - **Languages:**
   | Language | Level |
   |----------|-------|
@@ -95,15 +95,18 @@ None currently.
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- Research: Fraunhofer (maritime area), universities in maritime robotics/turbulence research (Gothenburg, Rostock, Hamburg, Lübeck, Kiel)
-- Government agencies: SMHI (Sweden), BSH (Germany)
-- Industry (maritime data/robotics): TKMS, Kongsberg, Nortek, Frost Unmanned, Voice of the Ocean, Reach Subsea, Njord Survey
-- Also open to: offshore survey companies, defence industry (e.g. Rheinmetall), if that's what it takes to stay in the maritime sector; robotics industry outside maritime (e.g. Husqvarna Group - autonomous robotic lawn mowers, R&D based in Huskvarna) where the domain overlaps strongly with his embedded/autonomous-systems background
+- Research: Fraunhofer (maritime area), universities in maritime robotics/turbulence research (Gothenburg, Rostock, Hamburg, Lübeck, Kiel). Open to a PhD position, but only if the topic/fit is as strong as the 2025 Chalmers ship-wake-turbulence application (reached final round, ranked 2nd of 54 candidates) - not actively sought as a general strategy, and nothing comparable has come up since.
+- Government agencies: SMHI (Sweden) and BSH (Germany) are high-priority. Norrköping is accepted as a location specifically for a strong-fit SMHI role, contingent on continued Swedish progress (SFI D exam scheduled June 2026) - see `location-bound-region` memory. Within Sjöfartsverket (Sweden), deprioritize pure vessel-traffic-management/nautical-traffic roles specifically - a 2025 application there (Förvaltningsledare, Sjötrafiktjänster) was assessed in hindsight as a reach with weak fit; this is distinct from oceanographic/hydrographic-flavored maritime-agency work, which remains a good fit.
+- Industry (maritime data/robotics), top preference: **Voice Of The Ocean (VOTO)** and **Njord Survey** specifically - valued for connecting research and data processing directly to industry/operational use, which matches what excites him most (see What Excites You above). Also: TKMS, Kongsberg, Nortek, Frost Unmanned. Reach Subsea remains a target but currently has few open positions, so lower near-term priority.
+- Defence industry: open to it if that's what it takes to stay in the maritime sector, with two refinements as of 2026-08 - **Rheinmetall/Blohm+Voss** status is still being assessed (only resumed actively scanning the German job market again in June 2026, so read as early-stage rather than a settled verdict); **Saab** is narrowed specifically to the **naval/submarine division (Saab Kockums, based in Karlskrona)** - not pursuing other Saab divisions. Saab Kockums roles often carry Swedish-citizenship/security-clearance requirements depending on role sensitivity (verified via Saab's own careers pages, 2026-08-12) - factor this in per-posting rather than as a blanket exclusion.
+- Robotics industry outside maritime (e.g. Husqvarna Group - autonomous robotic lawn mowers, R&D based in Huskvarna): still open to robotics-testing-adjacent roles in the vicinity where the domain overlaps with his embedded/autonomous-systems background, but the maritime sector is now the clear first preference over generic robotics.
+- **Not pursuing:** general/raw software development roles (e.g. C/C++ or embedded developer roles outside a maritime or robotics-testing context) - self-assessed as not competitively qualified relative to the market, prefers investing in skills closer to his core competencies instead. Also dropped as a direction: the 2025 "wider net" IT/data-science/ESG pivot (roles like Data Scientist, Sustainability & ESG Data Specialist, generalist IT service integration) - concluded after several applications that the market has better-qualified candidates for these and that the direction doesn't align with his qualifications or working style.
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
 - None hard-stated. Soft preference: avoid long offshore stints away from family, but not a hard no if it's the only way to continue in the maritime sector.
+- Planned family relocation around April 2027 (see Location above) may shift the acceptable-location tier once a destination is finalized - don't treat the current Northern Germany/Southern Sweden/Copenhagen tier as permanent.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
